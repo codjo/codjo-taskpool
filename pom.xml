@@ -8,7 +8,7 @@
 
     <parent>
         <groupId>net.codjo.pom</groupId>
-        <artifactId>codjo-pom-library</artifactId>
+        <artifactId>codjo-pom-external</artifactId>
         <version>SNAPSHOT</version>
     </parent>
     <groupId>net.codjo.taskpool</groupId>
@@ -16,6 +16,11 @@
     <version>2.3-SNAPSHOT</version>
 
     <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
         <dependency>
             <groupId>jdepend</groupId>
             <artifactId>jdepend</artifactId>
